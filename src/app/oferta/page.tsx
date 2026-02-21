@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { track } from "@/lib/pixel";
+import Image from "next/image";
 
 const CHECKOUT_URL = "https://pay.kiwify.com.br/XsgSgRj";
 
@@ -20,6 +21,16 @@ export default function OfertaPage() {
 
       {/* HERO */}
       <section className="text-center">
+        <div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-xl">
+          <Image
+            src="/imagem-seguro.png"
+            alt="Regência Neural e Polilaminina"
+            fill
+            sizes="100vw"
+            className="object-cover object-[65%_center] md:object-[65%_90%]"
+            priority
+          />
+        </div>
         <h1 className="text-4xl font-bold leading-tight">
           Guia Científico Completo Sobre Polilaminina
         </h1>
@@ -33,7 +44,7 @@ export default function OfertaPage() {
         <div className="mt-8">
           <button
             onClick={handleCheckout}
-            className="cursor-pointer rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
+            className="cursor-pointer rounded-2xl bg-[#0B2D5C] px-8 py-4 text-white text-lg font-semibold hover:bg-[#09264D] transition"
           >
             Quero Acessar o Guia Agora R$ 39,90
           </button>
@@ -118,7 +129,7 @@ export default function OfertaPage() {
       <section className="mt-20 text-center">
         <button
           onClick={handleCheckout}
-          className="cursor-pointer rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
+          className="cursor-pointer rounded-2xl bg-[#0B2D5C]  px-8 py-4 text-white text-lg font-semibold hover:bg-[#09264D] transition"
         >
           Acessar Agora por R$ 39,90
         </button>
