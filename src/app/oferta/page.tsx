@@ -16,27 +16,118 @@ export default function OfertaPage() {
   }
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-12">
-      <h1 className="text-4xl font-semibold leading-tight">
-        Guia Científico: Polilaminina e Matriz Extracelular
-      </h1>
-      <p className="mt-4 text-neutral-700">
-        Material educacional estruturado para interpretar pesquisas com clareza: fundamentos,
-        metodologia e limites do que os estudos sustentam.
-      </p>
+    <main className="mx-auto max-w-4xl px-6 py-16">
 
-      <div className="mt-8">
+      {/* HERO */}
+      <section className="text-center">
+        <h1 className="text-4xl font-bold leading-tight">
+          Guia Científico Completo Sobre Polilaminina
+        </h1>
+
+        <p className="mt-6 text-lg text-neutral-700">
+          Entenda como a ciência investiga a matriz extracelular,
+          como interpretar pesquisas corretamente
+          e quais são os limites metodológicos do tema.
+        </p>
+
+        <div className="mt-8">
+          <button
+            onClick={handleCheckout}
+            className="rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
+          >
+            Quero Acessar o Guia Agora – R$ 39,90
+          </button>
+        </div>
+      </section>
+
+      {/* PROBLEMA */}
+      <section className="mt-20">
+        <h2 className="text-2xl font-semibold">
+          O Problema da Informação Fragmentada
+        </h2>
+
+        <p className="mt-4 text-neutral-700 leading-relaxed">
+          A maior parte do conteúdo disponível na internet apresenta
+          recortes isolados, sem explicação metodológica e sem diferenciação
+          entre hipótese científica e aplicação clínica.
+        </p>
+
+        <p className="mt-4 text-neutral-700 leading-relaxed">
+          Isso gera interpretações equivocadas, expectativas irreais
+          e debates baseados em informação incompleta.
+        </p>
+      </section>
+
+      {/* SOLUÇÃO */}
+      <section className="mt-20">
+        <h2 className="text-2xl font-semibold">
+          A Proposta Deste Guia
+        </h2>
+
+        <ul className="mt-6 space-y-3 text-neutral-700">
+          <li>✔ Fundamentos da matriz extracelular</li>
+          <li>✔ Como pesquisas laboratoriais são conduzidas</li>
+          <li>✔ Diferença entre evidência experimental e aplicação clínica</li>
+          <li>✔ Interpretação responsável de estudos científicos</li>
+          <li>✔ Limitações metodológicas que precisam ser consideradas</li>
+        </ul>
+      </section>
+
+      {/* PARA QUEM É */}
+      <section className="mt-20">
+        <h2 className="text-2xl font-semibold">
+          Para Quem É Este Material
+        </h2>
+
+        <ul className="mt-6 space-y-3 text-neutral-700">
+          <li>✔ Estudantes e acadêmicos</li>
+          <li>✔ Interessados em biotecnologia</li>
+          <li>✔ Pesquisadores iniciantes</li>
+          <li>✔ Pessoas que desejam interpretar pesquisas com responsabilidade</li>
+          <li>✔ Familiares e interessados em compreender estudos biomédicos</li>
+          <li>✔ Pessoas que convivem com desafios neurológicos e desejam entender o que a ciência investiga</li>
+        </ul>
+      </section>
+
+      {/* NÃO É */}
+      <section className="mt-20">
+        <h2 className="text-2xl font-semibold">
+          Para Quem Não É
+        </h2>
+
+        <ul className="mt-6 space-y-3 text-neutral-700">
+          <li>✖ Quem busca promessa de cura</li>
+          <li>✖ Quem espera soluções milagrosas</li>
+          <li>✖ Quem não valoriza metodologia científica</li>
+        </ul>
+      </section>
+
+      {/* GARANTIA */}
+      <section className="mt-20 text-center border border-neutral-200 rounded-2xl p-10">
+        <h2 className="text-2xl font-semibold">
+          Garantia de 7 Dias
+        </h2>
+
+        <p className="mt-4 text-neutral-700">
+          Caso o conteúdo não atenda às suas expectativas,
+          você pode solicitar reembolso dentro do prazo legal.
+        </p>
+      </section>
+
+      {/* CTA FINAL */}
+      <section className="mt-20 text-center">
         <button
           onClick={handleCheckout}
-          className="rounded-xl bg-neutral-900 px-5 py-3 text-sm font-medium text-white"
+          className="rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
         >
-          Comprar Agora
+          Acessar Agora por R$ 39,90
         </button>
-      </div>
 
-      <p className="mt-5 text-xs text-neutral-500">
-        Conteúdo educacional. Sem promessas terapêuticas.
-      </p>
+        <p className="mt-6 text-sm text-neutral-500">
+          Conteúdo educacional. Não substitui orientação médica.
+        </p>
+      </section>
+
     </main>
   );
 }

@@ -7,7 +7,7 @@ export default function ObrigadoPage() {
   useEffect(() => {
     track("Purchase", {
       currency: "BRL",
-      value: 37.0, // altere para o valor real
+      value: 39.90, // altere para o valor real
       content_name: "Ebook Polilaminina",
     });
   }, []);
