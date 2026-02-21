@@ -96,7 +96,7 @@ export default function QuizStepPage() {
           disabled={!selected}
           className={`cursor-pointer rounded-xl border px-4 py-2 text-sm ${
             selected
-              ? "border-neutral-900 bg-neutral-900 text-white"
+              ? "border-neutral-900 bg-[#0B2D5C] text-white"
               : "border-neutral-200 bg-neutral-200 text-neutral-500"
           }`}
         >
