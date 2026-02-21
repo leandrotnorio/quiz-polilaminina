@@ -35,7 +35,7 @@ export default function OfertaPage() {
             onClick={handleCheckout}
             className="cursor-pointer rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
           >
-            Quero Acessar o Guia Agora – R$ 39,90
+            Quero Acessar o Guia Agora R$ 39,90
           </button>
         </div>
       </section>
