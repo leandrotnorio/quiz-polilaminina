@@ -86,7 +86,7 @@ export default function QuizStepPage() {
       <div className="mt-7 flex gap-3">
         <button
           onClick={goBack}
-          className="rounded-xl border border-neutral-200 px-4 py-2 text-sm"
+          className=" cursor-pointer rounded-xl border border-neutral-200 px-4 py-2 text-sm"
         >
           Voltar
         </button>
@@ -94,7 +94,7 @@ export default function QuizStepPage() {
         <button
           onClick={goNext}
           disabled={!selected}
-          className={`rounded-xl border px-4 py-2 text-sm ${
+          className={`cursor-pointer rounded-xl border px-4 py-2 text-sm ${
             selected
               ? "border-neutral-900 bg-neutral-900 text-white"
               : "border-neutral-200 bg-neutral-200 text-neutral-500"

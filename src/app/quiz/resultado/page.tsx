@@ -45,7 +45,7 @@ export default function QuizResultPage() {
       <div className="mt-8">
         <Link
           href="/oferta"
-          className="inline-flex items-center rounded-xl border border-neutral-900 px-5 py-3 text-sm font-medium"
+          className="cursor-pointer inline-flex items-center rounded-xl border border-neutral-900 px-5 py-3 text-sm font-medium"
         >
           Acessar o Guia Científico Completo
         </Link>

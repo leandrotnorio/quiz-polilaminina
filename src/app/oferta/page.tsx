@@ -33,7 +33,7 @@ export default function OfertaPage() {
         <div className="mt-8">
           <button
             onClick={handleCheckout}
-            className="rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
+            className="cursor-pointer rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
           >
             Quero Acessar o Guia Agora – R$ 39,90
           </button>
@@ -118,7 +118,7 @@ export default function OfertaPage() {
       <section className="mt-20 text-center">
         <button
           onClick={handleCheckout}
-          className="rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
+          className="cursor-pointer rounded-2xl bg-neutral-900 px-8 py-4 text-white text-lg font-semibold hover:bg-neutral-800 transition"
         >
           Acessar Agora por R$ 39,90
         </button>
