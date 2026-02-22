@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { track } from "@/lib/pixel";
 import Image from "next/image";
 
-const CHECKOUT_URL = "https://pay.kiwify.com.br/XsgSgRj";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/loqdJoT";
 
 export default function OfertaPage() {
   useEffect(() => {
