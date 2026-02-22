@@ -45,8 +45,15 @@ export default function OfertaPage() {
           <button
             onClick={handleCheckout}
             className="cursor-pointer rounded-2xl bg-[#0B2D5C] px-8 py-4 text-white text-lg font-semibold hover:bg-[#09264D] transition"
-          >
-            Quero Acessar o Guia Agora R$ 39,90
+          ><span className="block text-xs uppercase tracking-wide text-white">
+            Oferta Especial
+          </span>
+          <span className="block text-sm line-through opacity-70">
+            De R$ 109,90
+          </span>
+          <span className="block text-xl font-bold">
+            Quero Acessar o Guia Agora Por R$ 39,80
+          </span>
           </button>
         </div>
       </section>
@@ -131,6 +138,9 @@ export default function OfertaPage() {
           onClick={handleCheckout}
           className="cursor-pointer rounded-2xl bg-[#0B2D5C]  px-8 py-4 text-white text-lg font-semibold hover:bg-[#09264D] transition"
         >
+          <span className="block text-sm line-through opacity-70">
+            De R$ 109,90
+          </span>
           Acessar Agora por R$ 39,90
         </button>
 
