@@ -49,10 +49,10 @@ export default function OfertaPage() {
             Oferta Especial
           </span>
           <span className="block text-sm line-through opacity-70">
-            De R$ 109,90
+            De R$ 89,90
           </span>
           <span className="block text-xl font-bold">
-            Quero Acessar o Guia Agora Por R$ 39,80
+            Quero Acessar o Guia Agora Por R$ 29,90
           </span>
           </button>
         </div>
@@ -139,9 +139,9 @@ export default function OfertaPage() {
           className="cursor-pointer rounded-2xl bg-[#0B2D5C]  px-8 py-4 text-white text-lg font-semibold hover:bg-[#09264D] transition"
         >
           <span className="block text-sm line-through opacity-70">
-            De R$ 109,90
+            De R$ 89,90
           </span>
-          Acessar Agora por R$ 39,90
+          Acessar Agora por R$ 29,90
         </button>
 
         <p className="mt-6 text-sm text-neutral-500">
