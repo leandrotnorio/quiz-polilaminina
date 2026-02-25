@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { track } from "@/lib/pixel";
 import Image from "next/image";
+import { ArrowRight, BadgeCheck, BookOpen, Clock3, CreditCard, ShieldCheck, Sparkles, Video, Lock } from "lucide-react";
 
 const CHECKOUT_URL = "https://pay.kiwify.com.br/loqdJoT";
 
@@ -16,12 +17,15 @@ export default function OfertaPage() {
     window.location.href = CHECKOUT_URL;
   }
 
+
+
   return (
-    <main className="mx-auto max-w-4xl px-6 py-16">
+    <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
 
       {/* HERO */}
-      <section className="text-center">
-    <div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-xl">
+      <section className="mt-16 sm:mt-20 text-center">
+
+        <div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-xl">
       <Image
         src="/imagem-seguro.png"
         alt="Guia sobre Polilaminina e matriz extracelular"
@@ -36,255 +40,198 @@ export default function OfertaPage() {
       Material educacional • Linguagem acessível • Baseado em interpretação científica responsável
     </div>
 
-    <h1 className="mt-6 text-4xl font-bold leading-tight md:text-5xl">
-      Entenda o que a ciência realmente investiga sobre Polilaminina
-      <span className="block text-[#0B2D5C]">
-        sem promessas, sem confusão e sem desinformação
-      </span>
-    </h1>
-
-    <p className="mt-6 text-lg text-neutral-700 leading-relaxed max-w-3xl mx-auto">
-      Um guia direto ao ponto para você compreender os fundamentos, interpretar estudos com mais segurança
-      e diferenciar hipótese científica de aplicação clínica — mesmo sem formação técnica avançada.
-    </p>
-
-    <div className="mt-6 grid gap-3 text-left max-w-2xl mx-auto text-neutral-800">
-      <div className="rounded-xl border border-neutral-200 p-4 bg-white">
-        ✅ Entenda os conceitos essenciais sem linguagem complicada
-      </div>
-      <div className="rounded-xl border border-neutral-200 p-4 bg-white">
-        ✅ Evite interpretações equivocadas e expectativas irreais
-      </div>
-      <div className="rounded-xl border border-neutral-200 p-4 bg-white">
-        ✅ Aprenda a analisar informações com mais clareza e responsabilidade
-      </div>
-    </div>
-
-    <div className="mt-8">
-      <button
-        onClick={handleCheckout}
-        className="cursor-pointer rounded-2xl bg-[#0B2D5C] px-8 py-4 text-white text-lg font-semibold hover:bg-[#09264D] transition shadow-lg"
-      >
-        <span className="block text-xs uppercase tracking-wide text-white/90">
-          Oferta Especial de Hoje
-        </span>
-        <span className="block text-sm line-through opacity-70">
-          De R$ 89,90
-        </span>
-        <span className="block text-xl font-bold">
-          Quero Acessar o Guia Agora por R$ 29,90
-        </span>
-      </button>
-
-      <p className="mt-3 text-sm text-neutral-600">
-        Acesso digital imediato • Pagamento seguro • Garantia de 7 dias
-      </p>
-    </div>
-  </section>
-
-      {/* PROBLEMA */}
-      <section className="mt-20">
-    <h2 className="text-2xl font-semibold">
-      Por que tantas pessoas ficam confusas com esse tema?
-    </h2>
-
-    <p className="mt-4 text-neutral-700 leading-relaxed">
-      Porque grande parte do conteúdo na internet apresenta apenas recortes isolados:
-      trechos de estudos, interpretações incompletas e afirmações sem contexto metodológico.
-    </p>
-
-    <p className="mt-4 text-neutral-700 leading-relaxed">
-      O resultado é previsível: dúvidas, expectativas irreais, discussões improdutivas
-      e dificuldade para separar informação séria de narrativa apelativa.
-    </p>
-
-    <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-amber-900">
-      <p className="font-medium">
-        Este guia foi criado justamente para reduzir esse ruído e organizar o entendimento de forma clara.
-      </p>
-    </div>
-  </section>
-
-
-      {/* SOLUÇÃO */}
-      <section className="mt-20">
-    <h2 className="text-2xl font-semibold">
-      O que você vai aprender neste guia
-    </h2>
-
-    <p className="mt-4 text-neutral-700">
-      Você terá uma visão estruturada para compreender o tema com mais segurança, sem cair em exageros.
-    </p>
-
-    <ul className="mt-6 space-y-3 text-neutral-700">
-      <li>✔ Fundamentos da matriz extracelular e conceitos essenciais</li>
-      <li>✔ Como estudos laboratoriais costumam ser conduzidos</li>
-      <li>✔ Diferença entre evidência experimental e aplicação clínica</li>
-      <li>✔ Como interpretar pesquisas com pensamento crítico</li>
-      <li>✔ Limitações metodológicas que precisam entrar na análise</li>
-      <li>✔ Como identificar sinais de desinformação e promessas infundadas</li>
-    </ul>
-  </section>
-
-    {/* BENEFÍCIOS PRÁTICOS */}
-  <section className="mt-20">
-    <h2 className="text-2xl font-semibold">
-      O benefício real para você
-    </h2>
-
-    <div className="mt-6 grid gap-4 md:grid-cols-2">
-      <div className="rounded-2xl border border-neutral-200 p-5">
-        <h3 className="font-semibold text-neutral-900">Mais clareza</h3>
-        <p className="mt-2 text-neutral-700">
-          Entenda o tema com organização e linguagem acessível, em vez de consumir conteúdo solto.
-        </p>
-      </div>
-
-      <div className="rounded-2xl border border-neutral-200 p-5">
-        <h3 className="font-semibold text-neutral-900">Mais segurança na interpretação</h3>
-        <p className="mt-2 text-neutral-700">
-          Aprenda a diferenciar hipótese, experimento e conclusão sem extrapolar o que o estudo não diz.
-        </p>
-      </div>
-
-      <div className="rounded-2xl border border-neutral-200 p-5">
-        <h3 className="font-semibold text-neutral-900">Menos confusão</h3>
-        <p className="mt-2 text-neutral-700">
-          Reduza o impacto de conteúdos sensacionalistas e argumentos sem base metodológica.
-        </p>
-      </div>
-
-      <div className="rounded-2xl border border-neutral-200 p-5">
-        <h3 className="font-semibold text-neutral-900">Conteúdo objetivo</h3>
-        <p className="mt-2 text-neutral-700">
-          Material pensado para ir direto ao ponto, sem enrolação e sem jargão desnecessário.
-        </p>
-      </div>
-    </div>
-  </section>
-
-      {/* PARA QUEM É */}
-     <section className="mt-20">
-    <h2 className="text-2xl font-semibold">
-      Para quem este material é indicado
-    </h2>
-
-    <ul className="mt-6 space-y-3 text-neutral-700">
-      <li>✔ Estudantes e acadêmicos</li>
-      <li>✔ Interessados em biotecnologia e pesquisa biomédica</li>
-      <li>✔ Pesquisadores iniciantes</li>
-      <li>✔ Familiares e interessados que querem entender o tema com responsabilidade</li>
-      <li>✔ Pessoas que convivem com desafios neurológicos e desejam compreender o que a ciência investiga</li>
-      <li>✔ Quem busca informação organizada, sem sensacionalismo</li>
-    </ul>
-  </section>
-
-
-      {/* PARA QUEM NÃO É */}
-  <section className="mt-20">
-    <h2 className="text-2xl font-semibold">
-      Para quem este guia não é
-    </h2>
-
-    <ul className="mt-6 space-y-3 text-neutral-700">
-      <li>✖ Quem busca promessa de cura ou resultado garantido</li>
-      <li>✖ Quem procura soluções milagrosas</li>
-      <li>✖ Quem não tem interesse em interpretação responsável de estudos</li>
-    </ul>
-  </section>
-
-    {/* QUEBRA DE OBJEÇÕES */}
-  <section className="mt-20">
-    <h2 className="text-2xl font-semibold text-center">
-      “Mas eu não sou da área, vou conseguir entender?”
-    </h2>
-
-    <div className="mt-6 rounded-2xl border border-neutral-200 p-6 bg-neutral-50">
-      <p className="text-neutral-700 leading-relaxed">
-        Sim. O guia foi estruturado para facilitar o entendimento progressivo do tema.
-        A proposta não é complicar — é organizar a informação para que você consiga acompanhar com clareza.
-      </p>
-
-      <p className="mt-4 text-neutral-700 leading-relaxed">
-        Mesmo que você esteja começando agora, o material ajuda a construir uma base de interpretação mais sólida.
-      </p>
-    </div>
-  </section>
-
-  {/* OFERTA / ANCORAGEM */}
-  <section className="mt-20 text-center">
-    <h2 className="text-2xl font-semibold">
-      Oferta de acesso ao guia
-    </h2>
-
-    <p className="mt-4 text-neutral-700">
-      Em vez de pagar <span className="line-through">R$ 89,90</span>, hoje você pode acessar por:
-    </p>
-
-    <div className="mt-4 rounded-2xl border border-[#0B2D5C]/20 bg-[#0B2D5C]/5 p-6 inline-block min-w-[280px]">
-      <p className="text-sm uppercase tracking-wide text-neutral-600">Pagamento único</p>
-      <p className="text-4xl font-bold text-[#0B2D5C]">R$ 29,90</p>
-      <p className="mt-1 text-sm text-neutral-600">Acesso digital imediato</p>
-    </div>
-
-    <div className="mt-8">
-      <button
-        onClick={handleCheckout}
-        className="cursor-pointer rounded-2xl bg-[#0B2D5C] px-8 py-4 text-white text-lg font-semibold hover:bg-[#09264D] transition shadow-lg"
-      >
-        <span className="block text-sm line-through opacity-70">
-          De R$ 89,90
-        </span>
-        <span className="block text-xl font-bold">
-          Acessar Agora por R$ 29,90
-        </span>
-      </button>
-
-      <p className="mt-3 text-sm text-neutral-600">
-        Compra segura • Liberação imediata • Sem mensalidade
-      </p>
-    </div>
-  </section>
-
-      {/* GARANTIA */}
-      <section className="mt-20 text-center border border-neutral-200 rounded-2xl p-10">
-    <h2 className="text-2xl font-semibold">
-      Garantia de 7 dias
-    </h2>
-
-    <p className="mt-4 text-neutral-700 leading-relaxed">
-      Se o conteúdo não atender às suas expectativas, você pode solicitar reembolso
-      dentro do prazo legal de garantia.
-    </p>
-  </section>
-
-      {/* CTA FINAL */}
-     <section className="mt-20 text-center">
-    <h2 className="text-2xl font-semibold">
-      Tome sua decisão com base em informação organizada
-    </h2>
-
-    <p className="mt-4 text-neutral-700 max-w-2xl mx-auto">
-      Se você quer entender melhor o tema, reduzir confusão e analisar conteúdos com mais clareza,
-      este guia foi feito para isso.
-    </p>
-
-    <button
-      onClick={handleCheckout}
-      className="mt-8 cursor-pointer rounded-2xl bg-[#0B2D5C] px-8 py-4 text-white text-lg font-semibold hover:bg-[#09264D] transition shadow-lg"
-    >
-      <span className="block text-sm line-through opacity-70">
-        De R$ 89,90
-      </span>
-      <span className="block text-xl font-bold">
-        Quero Acessar Agora por R$ 29,90
-      </span>
-    </button>
-
-    <p className="mt-6 text-sm text-neutral-500">
-      Conteúdo educacional. Não substitui orientação médica, diagnóstico ou tratamento.
-    </p>
-  </section>
+        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl border border-neutral-200 bg-white p-4 shadow-sm sm:p-6 lg:p-10">
+          {/* efeitos visuais sutis */}
+          <div className="pointer-events-none absolute -top-10 right-0 h-28 w-28 rounded-full bg-blue-100/50 blur-3xl sm:h-40 sm:w-40" />
+          <div className="pointer-events-none absolute -bottom-10 -left-6 h-24 w-24 rounded-full bg-indigo-100/40 blur-3xl sm:h-36 sm:w-36" />
+      
+          {/* Header */}
+          <div className="relative mx-auto max-w-3xl">
+            <div className="inline-flex flex-wrap items-center justify-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-blue-900 sm:text-xs">
+              <Sparkles className="h-4 w-4 shrink-0" />
+              <span>Oferta de acesso • condição especial</span>
+            </div>
+      
+            <h2 className="mt-4 text-left text-[1.35rem] leading-[1.15] font-semibold text-neutral-900 sm:text-center sm:text-[1.75rem] md:text-3xl">
+              Tenha acesso ao guia agora e, se quiser, adicione orientação profissional online no checkout
+            </h2>
+      
+            <p className="mt-4 text-left text-sm leading-relaxed text-neutral-700 sm:text-center sm:text-base">
+              Você começa com o <strong>guia educacional completo</strong> para organizar o entendimento do tema
+              e, no checkout, pode optar por incluir <strong>consulta fisioterapêutica online</strong> como suporte complementar.
+            </p>
+          </div>
+      
+          {/* Estrutura da oferta (2 cards) */}
+          <div className="relative mt-6 grid grid-cols-1 gap-4 md:mt-8 md:gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+            {/* Card principal do ebook */}
+            <div className="rounded-2xl border border-neutral-200 bg-white p-4 text-left sm:p-5 md:p-6">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 text-[#0B2D5C] sm:h-11 sm:w-11">
+                  <BookOpen className="h-5 w-5 shrink-0" />
+                </div>
+      
+                <div className="min-w-0 w-full">
+                  <div className="flex flex-col items-start gap-2 sm:flex-row sm:flex-wrap sm:items-center">
+                    <h3 className="text-base font-semibold text-neutral-900 sm:text-lg leading-tight">
+                      Guia Científico Completo <span className="hidden sm:inline">(Produto Principal)</span>
+                    </h3>
+      
+                    <span className="inline-flex items-center rounded-full border border-green-200 bg-green-50 px-2.5 py-1 text-[11px] font-medium text-green-800 sm:text-xs">
+                      Acesso imediato
+                    </span>
+                  </div>
+      
+                  <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+                    Material educacional para compreender fundamentos, interpretar estudos com mais critério
+                    e reduzir confusão causada por informações fragmentadas.
+                  </p>
+      
+                  <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                    <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-3.5 sm:p-4">
+                      <p className="text-sm font-medium text-neutral-900">O que você leva</p>
+                      <p className="mt-1 text-sm leading-relaxed text-neutral-700">
+                        Guia digital com conteúdo estruturado, objetivo e orientado à interpretação responsável.
+                      </p>
+                    </div>
+      
+                    <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-3.5 sm:p-4">
+                      <p className="text-sm font-medium text-neutral-900">Para quem faz sentido</p>
+                      <p className="mt-1 text-sm leading-relaxed text-neutral-700">
+                        Pessoas e famílias que buscam clareza, contexto e informação organizada.
+                      </p>
+                    </div>
+                  </div>
+      
+                  {/* ancoragem de valor */}
+                  <div className="mt-5 rounded-2xl border border-[#0B2D5C]/15 bg-gradient-to-r from-[#0B2D5C]/5 to-blue-50 p-4">
+                    <p className="text-sm leading-relaxed text-neutral-700">
+                      <span className="font-semibold text-neutral-900">Condição atual:</span>{" "}
+                      em vez de pagar <span className="line-through">R$ 89,90</span>, você garante acesso hoje por:
+                    </p>
+      
+                    <div className="mt-3 flex flex-col items-start gap-1 sm:flex-row sm:flex-wrap sm:items-end sm:gap-3">
+                      <p className="text-3xl font-bold leading-none text-[#0B2D5C] sm:text-4xl">
+                        R$ 29,90
+                      </p>
+                      <p className="text-sm text-neutral-600 sm:pb-1">
+                        pagamento único • sem mensalidade
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            {/* Card da consulta opcional no checkout */}
+            <div className="rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 p-4 text-left sm:p-5 md:p-6">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-blue-200 bg-white text-[#0B2D5C] sm:h-11 sm:w-11">
+                  <Video className="h-5 w-5 shrink-0" />
+                </div>
+      
+                <div className="min-w-0 w-full">
+                  <div className="flex flex-col items-start gap-2 sm:flex-row sm:flex-wrap sm:items-center">
+                    <h3 className="text-base font-semibold text-neutral-900 sm:text-lg leading-tight">
+                      Consulta fisioterapêutica online
+                    </h3>
+      
+                    <span className="inline-flex items-center rounded-full border border-blue-200 bg-white px-2.5 py-1 text-[11px] font-medium text-blue-900 sm:text-xs">
+                      Opcional no checkout
+                    </span>
+                  </div>
+      
+                  <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+                    Para quem deseja ir além da informação e ter orientação profissional complementar,
+                    com foco em clareza dos próximos passos e suporte responsável.
+                  </p>
+      
+                  <ul className="mt-4 space-y-2 text-sm text-neutral-700">
+                    <li className="flex items-start gap-2">
+                      <BadgeCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                      <span>Organização das principais dúvidas e queixas</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <BadgeCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                      <span>Orientação profissional inicial (quando aplicável)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <BadgeCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                      <span>Direcionamento com mais segurança para próximos passos</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          {/* CTA premium */}
+          <div className="relative mt-6 rounded-2xl border border-neutral-200 bg-white p-4 sm:mt-8 sm:p-5 md:p-6">
+            <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-6">
+              <div className="min-w-0 text-left">
+                <h3 className="text-base font-semibold text-neutral-900 sm:text-lg">
+                  Comece pelo guia e decida com mais clareza
+                </h3>
+      
+                <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+                  Acesso imediato ao conteúdo educacional por <strong>R$ 29,90</strong>. No checkout, você escolhe
+                  se deseja adicionar orientação fisioterapêutica online (opcional).
+                </p>
+      
+                {/* microcopy de confiança */}
+                <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
+                  <div className="inline-flex items-center gap-2 rounded-xl border border-neutral-200 bg-neutral-50 px-3 py-2 text-xs font-medium text-neutral-700">
+                    <Clock3 className="h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                    <span>Acesso digital imediato</span>
+                  </div>
+      
+                  <div className="inline-flex items-center gap-2 rounded-xl border border-neutral-200 bg-neutral-50 px-3 py-2 text-xs font-medium text-neutral-700">
+                    <CreditCard className="h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                    <span>Pagamento único</span>
+                  </div>
+      
+                  <div className="inline-flex items-center gap-2 rounded-xl border border-neutral-200 bg-neutral-50 px-3 py-2 text-xs font-medium text-neutral-700">
+                    <Lock className="h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                    <span>Checkout seguro</span>
+                  </div>
+      
+                  <div className="inline-flex items-center gap-2 rounded-xl border border-neutral-200 bg-neutral-50 px-3 py-2 text-xs font-medium text-neutral-700">
+                    <ShieldCheck className="h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                    <span>Garantia de 7 dias</span>
+                  </div>
+                </div>
+              </div>
+      
+              <div className="w-full lg:w-auto">
+                <div className="mx-auto w-full max-w-md lg:max-w-none">
+                  <button
+                    onClick={handleCheckout}
+                    className="group w-full cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-4 text-white shadow-lg transition hover:bg-[#09264D] sm:px-6"
+                  >
+                    <span className="block text-xs uppercase tracking-wide text-white/85">
+                      Condição especial de hoje
+                    </span>
+      
+                    <span className="block text-sm line-through opacity-70">
+                      De R$ 89,90
+                    </span>
+      
+                    <span className="mt-1 inline-flex items-center justify-center gap-2 text-base font-semibold sm:text-lg">
+                      Acessar por R$ 29,90
+                      <ArrowRight className="h-4 w-4 shrink-0 transition group-hover:translate-x-0.5" />
+                    </span>
+                  </button>
+      
+                  <p className="mt-3 text-center text-xs leading-relaxed text-neutral-500">
+                    Conteúdo educacional. A consulta fisioterapêutica online é opcional no checkout e
+                    não substitui diagnóstico médico ou atendimento presencial quando indicado.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 </main>
   );
 }
