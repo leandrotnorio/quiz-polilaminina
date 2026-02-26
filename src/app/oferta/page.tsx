@@ -135,10 +135,6 @@ export default function OfertaPage() {
                     <h3 className="text-base font-semibold text-neutral-900 sm:text-lg leading-tight">
                       Consulta fisioterapêutica online
                     </h3>
-      
-                    <span className="inline-flex items-center rounded-full border border-blue-200 bg-white px-2.5 py-1 text-[11px] font-medium text-blue-900 sm:text-xs">
-                      Opcional no checkout
-                    </span>
                   </div>
       
                   <p className="mt-2 text-sm leading-relaxed text-neutral-700">
