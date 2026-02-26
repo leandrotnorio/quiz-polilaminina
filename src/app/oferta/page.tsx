@@ -36,7 +36,7 @@ export default function OfertaPage() {
       />
     </div>
 
-    <div className="mt-6 inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-medium text-blue-900">
+    <div className="mt-6 mb-6 inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-medium text-blue-900">
       Material educacional • Linguagem acessível • Baseado em interpretação científica responsável
     </div>
 
@@ -117,6 +117,19 @@ export default function OfertaPage() {
                       <p className="text-sm text-neutral-600 sm:pb-1">
                         pagamento único • sem mensalidade
                       </p>
+
+                      <button
+      onClick={handleCheckout}
+      className="group w-full sm:w-auto cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-3 text-white text-sm font-semibold shadow-md transition hover:bg-[#09264D]"
+    >
+      <span className="inline-flex items-center justify-center gap-2">
+        Acessar agora
+        <ArrowRight className="h-4 w-4 shrink-0 transition group-hover:translate-x-0.5" />
+      </span>
+      <span className="mt-0.5 block text-xs font-medium text-white/80">
+        Checkout seguro • acesso imediato
+      </span>
+    </button>
                     </div>
                   </div>
                 </div>
@@ -217,11 +230,6 @@ export default function OfertaPage() {
                       <ArrowRight className="h-4 w-4 shrink-0 transition group-hover:translate-x-0.5" />
                     </span>
                   </button>
-      
-                  <p className="mt-3 text-center text-xs leading-relaxed text-neutral-500">
-                    Conteúdo educacional. A consulta fisioterapêutica online é opcional no checkout e
-                    não substitui diagnóstico médico ou atendimento presencial quando indicado.
-                  </p>
                 </div>
               </div>
             </div>
