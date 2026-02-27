@@ -23,15 +23,15 @@ export default function OfertaPage() {
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
 
       {/* HERO */}
-      <section className="mt-16 sm:mt-20 text-center">
+      <section className="mt-4 sm:mt-20 text-center">
 
-        <div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-xl">
+        <div className="relative w-full h-[300px] rounded-3xl overflow-hidden shadow-xl">
       <Image
-        src="/imagem-seguro.png"
+        src="/capa-ebook.png"
         alt="Guia sobre Polilaminina e matriz extracelular"
         fill
         sizes="100vw"
-        className="object-cover object-[65%_center] md:object-[65%_90%]"
+        className="object-cover object-[60%_center] md:object-[65%_90%]"
         priority
       />
     </div>
@@ -53,14 +53,16 @@ export default function OfertaPage() {
             </div>
       
             <h2 className="mt-4 text-left text-[1.35rem] leading-[1.15] font-semibold text-neutral-900 sm:text-center sm:text-[1.75rem] md:text-3xl">
-              Tenha acesso ao guia agora e, se quiser, adicione orientação profissional online no checkout
+              Tenha acesso ao guia agora + consulta profissional pelo fisioterapeuta
             </h2>
       
             <p className="mt-4 text-left text-sm leading-relaxed text-neutral-700 sm:text-center sm:text-base">
               Você começa com o <strong>guia educacional completo</strong> para organizar o entendimento do tema
-              e, no checkout, pode optar por incluir <strong>consulta fisioterapêutica online</strong> como suporte complementar.
+              e<strong> obter consulta fisioterapêutica</strong>.
             </p>
           </div>
+
+          
       
           {/* Estrutura da oferta (2 cards) */}
           <div className="relative mt-6 grid grid-cols-1 gap-4 md:mt-8 md:gap-5 lg:grid-cols-[1.1fr_0.9fr]">
@@ -146,13 +148,13 @@ export default function OfertaPage() {
                 <div className="min-w-0 w-full">
                   <div className="flex flex-col items-start gap-2 sm:flex-row sm:flex-wrap sm:items-center">
                     <h3 className="text-base font-semibold text-neutral-900 sm:text-lg leading-tight">
-                      Consulta fisioterapêutica online
+                      Consulta Fisioterapêutica Online (Bônus Premium)
                     </h3>
                   </div>
       
                   <p className="mt-2 text-sm leading-relaxed text-neutral-700">
-                    Para quem deseja ir além da informação e ter orientação profissional complementar,
-                    com foco em clareza dos próximos passos e suporte responsável.
+                    Para quem quer encurtar o caminho e ter uma orientação profissional complementar,
+                     com foco em clareza, segurança e próximos passos bem definidos.
                   </p>
       
                   <ul className="mt-4 space-y-2 text-sm text-neutral-700">
@@ -162,11 +164,23 @@ export default function OfertaPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <BadgeCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#0B2D5C]" />
-                      <span>Orientação profissional inicial (quando aplicável)</span>
+                      <span>Orientação profissional inicial</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <BadgeCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#0B2D5C]" />
                       <span>Direcionamento com mais segurança para próximos passos</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <BadgeCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                      <span>Triagem de sinais de alerta</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <BadgeCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                      <span>Ajuste de movimentos e comportamentos do dia a dia</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <BadgeCheck className="mt-0.5 h-4 w-4 shrink-0 text-[#0B2D5C]" />
+                      <span>Ajuste de movimentos e comportamentos do dia a dia (posturas e padrões que pioram)</span>
                     </li>
                   </ul>
                 </div>
