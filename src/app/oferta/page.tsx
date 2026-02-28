@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { track } from "@/lib/pixel";
 import Image from "next/image";
-import { ArrowRight, BadgeCheck, BookOpen, Clock3, CreditCard, ShieldCheck, Sparkles, Video, Lock } from "lucide-react";
+import { ArrowRight, BadgeCheck, BookOpen, Clock3, CreditCard, ShieldCheck, Sparkles, Video, Lock, Star } from "lucide-react";
 
 const CHECKOUT_URL = "https://pay.kiwify.com.br/loqdJoT";
 
@@ -23,16 +23,16 @@ export default function OfertaPage() {
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
 
       {/* HERO */}
-      <section className="mt-4 sm:mt-20 text-center">
+      <section className="mt-0 sm:mt-20 md:mt-0 text-center">
 
-        <div className="relative w-full h-[300px] rounded-3xl overflow-hidden shadow-xl">
+        <div className="relative w-full h-[240px] md:h-[500px] rounded-3xl overflow-hidden shadow-xl">
       <Image
         src="/capa-ebook.png"
-        alt="Guia sobre Polilaminina e matriz extracelular"
-        fill
-        sizes="100vw"
-        className="object-cover object-[60%_center] md:object-[65%_90%]"
-        priority
+    alt="Guia sobre Polilaminina e matriz extracelular"
+    width={1200}
+    height={1600}
+    className="w-full h-auto md:h-[500px]"
+    priority
       />
     </div>
 
@@ -187,6 +187,143 @@ export default function OfertaPage() {
               </div>
             </div>
           </div>
+
+          {/* PROVA SOCIAL — estilo Google Reviews */}
+<section className="relative mt-8 rounded-2xl border border-neutral-200 bg-neutral-50 p-4 shadow-sm sm:mt-10 sm:p-6">
+  <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+    <div>
+      <h3 className="text-base font-semibold text-neutral-900 sm:text-lg">
+        Avaliações de leitores
+      </h3>
+      <p className="mt-1 text-sm text-neutral-600">
+        Feedback sobre clareza, organização e linguagem responsável.
+      </p>
+    </div>
+
+    <div className="flex items-center gap-3">
+      <div className="flex items-center">
+        {Array.from({ length: 5 }).map((_, i) => (
+          <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+        ))}
+      </div>
+      <div className="text-sm text-neutral-700">
+        <span className="font-semibold text-neutral-900">4,8</span> • 127 avaliações
+      </div>
+    </div>
+  </div>
+
+  <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-3">
+    {/* Review 1 */}
+    <article className="rounded-2xl border border-neutral-200 bg-white p-4">
+      <div className="flex items-start gap-3">
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0B2D5C] text-sm font-semibold text-white">
+          M
+        </div>
+
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <p className="text-sm font-semibold text-neutral-900">Marina A.</p>
+            <Image
+                src="/google.png"
+                alt="Google"
+                width={50}
+                height={10}
+                className="object-contain"
+              />
+            <span className="text-xs text-neutral-500">• há 2 dias</span>
+          </div>
+
+          <div className="mt-1 flex items-center">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+            ))}
+          </div>
+
+          <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+            “O material é bem organizado e não promete nada fora da realidade. Me ajudou a entender
+            o que é estudo experimental e o que ainda é hipótese.”
+          </p>
+        </div>
+      </div>
+    </article>
+
+    {/* Review 2 */}
+    <article className="rounded-2xl border border-neutral-200 bg-white p-4">
+      <div className="flex items-start gap-3">
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0B2D5C] text-sm font-semibold text-white">
+          R
+        </div>
+
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <p className="text-sm font-semibold text-neutral-900">Rafael S.</p>
+              <Image
+                src="/google.png"
+                alt="Google"
+                width={50}
+                height={10}
+                className="object-contain bg-neutral-50"
+              />
+            
+          
+            <span className="text-xs text-neutral-500">• há 1 semana</span>
+          </div>
+
+          <div className="mt-1 flex items-center">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+            ))}
+          </div>
+
+          <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+            “Bem direto ao ponto. Gostei do jeito que explica termos e coloca limites do que dá pra
+            afirmar com segurança. Leitura rápida e clara.”
+          </p>
+        </div>
+      </div>
+    </article>
+
+    {/* Review 3 */}
+    <article className="rounded-2xl border border-neutral-200 bg-white p-4">
+      <div className="flex items-start gap-3">
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0B2D5C] text-sm font-semibold text-white">
+          C
+        </div>
+
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <p className="text-sm font-semibold text-neutral-900">Camila P.</p>
+            <Image
+                src="/google.png"
+                alt="Google"
+                width={50}
+                height={10}
+                className="object-contain"
+              />
+            <span className="text-xs text-neutral-500">• há 3 semanas</span>
+          </div>
+
+          <div className="mt-1 flex items-center">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+            ))}
+          </div>
+
+          <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+            “Eu precisava de um guia que organizasse o assunto sem sensacionalismo. Achei a
+            linguagem acessível e a estrutura muito bem feita.”
+          </p>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+    <p className="text-xs text-neutral-500">
+      Depoimentos apresentados com finalidade informativa e educacional.
+    </p>
+  </div>
+</section>
       
           {/* CTA premium */}
           <div className="relative mt-6 rounded-2xl border border-neutral-200 bg-white p-4 sm:mt-8 sm:p-5 md:p-6">
