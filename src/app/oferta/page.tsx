@@ -221,7 +221,7 @@ export default function OfertaPage() {
             <Image
                 src="/google1.jpg"
                 alt="Google"
-                width={50}
+                width={10}
                 height={10}
                 className="object-contain"
               />
@@ -291,7 +291,7 @@ export default function OfertaPage() {
             <Image
                 src="/google1.jpg"
                 alt="Google"
-                width={50}
+                width={10}
                 height={10}
                 className="object-contain"
               />
