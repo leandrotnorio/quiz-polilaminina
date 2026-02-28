@@ -25,13 +25,13 @@ export default function OfertaPage() {
       {/* HERO */}
       <section className="mt-0 sm:mt-20 md:mt-0 text-center">
 
-        <div className="relative w-full h-[240px] md:h-[500px] rounded-3xl overflow-hidden shadow-xl">
+        <div className="relative w-full h-[240px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl">
       <Image
         src="/capa-ebook.png"
     alt="Guia sobre Polilaminina e matriz extracelular"
     width={1200}
     height={1600}
-    className="object-cover"
+    className="object-cover object=center"
     priority
       />
     </div>
@@ -202,7 +202,8 @@ export default function OfertaPage() {
 
     <div className="flex items-center justify-center gap-3">
       <div className="text-sm text-neutral-700">
-        <span className="font-semibold text-neutral-900">4,8</span> • 127 avaliações
+        • 127 avaliações <span className="font-semibold text-neutral-900">4,8</span>
+        
       </div>
     </div>
   </div>
