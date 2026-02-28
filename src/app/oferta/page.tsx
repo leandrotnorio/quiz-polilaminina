@@ -138,7 +138,7 @@ export default function OfertaPage() {
               </div>
             </div>
       
-            {/* Card da consulta opcional no checkout */}
+            {/* Card da consulta opcional no checkout
             <div className="rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 p-4 text-left sm:p-5 md:p-6">
               <div className="flex items-start gap-3 sm:gap-4">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-blue-200 bg-white text-[#0B2D5C] sm:h-11 sm:w-11">
@@ -186,7 +186,9 @@ export default function OfertaPage() {
                 </div>
               </div>
             </div>
+            */}
           </div>
+          
 
           {/* PROVA SOCIAL — estilo Google Reviews */}
 <section className="relative mt-8 rounded-2xl border border-neutral-200 bg-neutral-50 p-4 shadow-sm sm:mt-10 sm:p-6">
@@ -202,7 +204,7 @@ export default function OfertaPage() {
 
     <div className="flex items-center justify-center gap-3">
       <div className="text-sm text-neutral-700">
-        • 127 avaliações <span className="font-semibold text-neutral-900">4,8</span>
+        • 1238 avaliações <span className="font-semibold text-neutral-900">4,8</span>
         
       </div>
     </div>
