@@ -200,12 +200,7 @@ export default function OfertaPage() {
       </p>
     </div>
 
-    <div className="flex items-center gap-3">
-      <div className="flex items-center">
-        {Array.from({ length: 5 }).map((_, i) => (
-          <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-        ))}
-      </div>
+    <div className="flex items-center justify-center gap-3">
       <div className="text-sm text-neutral-700">
         <span className="font-semibold text-neutral-900">4,8</span> • 127 avaliações
       </div>
