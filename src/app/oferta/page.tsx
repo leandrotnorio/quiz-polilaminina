@@ -219,7 +219,7 @@ export default function OfertaPage() {
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
             <p className="text-sm font-semibold text-neutral-900">Marina A.</p>
             <Image
-                src="/google.png"
+                src="/google1.jpg"
                 alt="Google"
                 width={50}
                 height={10}
@@ -255,7 +255,7 @@ export default function OfertaPage() {
               <Image
                 src="/google1.jpg"
                 alt="Google"
-                width={20}
+                width={10}
                 height={10}
                 className="object-contain"
               />
@@ -289,7 +289,7 @@ export default function OfertaPage() {
           <div className="flex items-center gap-x-2 gap-y-1">
             <p className="text-sm font-semibold text-neutral-900">Camila</p>
             <Image
-                src="/google.png"
+                src="/google1.jpg"
                 alt="Google"
                 width={50}
                 height={10}
