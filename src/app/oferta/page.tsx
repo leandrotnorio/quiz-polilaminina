@@ -295,7 +295,7 @@ export default function OfertaPage() {
                 height={10}
                 className="object-contain"
               />
-            <span className="text-xs text-neutral-500 whitespace-nowrap">• há 3 semanas</span>
+            <span className="text-xs text-neutral-500">• há 3 semanas</span>
           </div>
 
           <div className="mt-1 flex items-center">
