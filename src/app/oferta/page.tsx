@@ -31,7 +31,7 @@ export default function OfertaPage() {
     alt="Guia sobre Polilaminina e matriz extracelular"
     width={1200}
     height={1600}
-    className="w-full h-auto md:h-[500px]"
+    className="object-cover"
     priority
       />
     </div>
@@ -229,12 +229,12 @@ export default function OfertaPage() {
           </div>
 
           <div className="mt-1 flex items-center">
-            {Array.from({ length: 4 }).map((_, i) => (
+            {Array.from({ length: 5 }).map((_, i) => (
               <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
             ))}
           </div>
 
-          <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+          <p className="mt-2 text-left text-sm text-center leading-relaxed text-neutral-700">
             “O material é bem organizado e não promete nada fora da realidade. Me ajudou a entender
             o que é estudo experimental e o que ainda é hipótese.”
           </p>
@@ -257,7 +257,7 @@ export default function OfertaPage() {
                 alt="Google"
                 width={50}
                 height={10}
-                className="object-contain bg-neutral-50"
+                className="object-contain"
               />
             
           
@@ -270,7 +270,7 @@ export default function OfertaPage() {
             ))}
           </div>
 
-          <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+          <p className="mt-2 text-left text-sm leading-relaxed text-neutral-700">
             “Bem direto ao ponto. Gostei do jeito que explica termos e coloca limites do que dá pra
             afirmar com segurança. Leitura rápida e clara.”
           </p>
@@ -286,8 +286,8 @@ export default function OfertaPage() {
         </div>
 
         <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <p className="text-sm font-semibold text-neutral-900">Camila P.</p>
+          <div className="flex items-center gap-x-2 gap-y-1">
+            <p className="text-sm font-semibold text-neutral-900">Camila</p>
             <Image
                 src="/google.png"
                 alt="Google"
@@ -295,7 +295,7 @@ export default function OfertaPage() {
                 height={10}
                 className="object-contain"
               />
-            <span className="text-xs text-neutral-500">• há 3 semanas</span>
+            <span className="text-xs text-neutral-500 whitespace-nowrap">• há 3 semanas</span>
           </div>
 
           <div className="mt-1 flex items-center">
@@ -304,7 +304,7 @@ export default function OfertaPage() {
             ))}
           </div>
 
-          <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+          <p className="mt-2 text-left text-sm leading-relaxed text-neutral-700">
             “Eu precisava de um guia que organizasse o assunto sem sensacionalismo. Achei a
             linguagem acessível e a estrutura muito bem feita.”
           </p>
