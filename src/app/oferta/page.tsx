@@ -221,7 +221,7 @@ export default function OfertaPage() {
             <Image
                 src="/google1.jpg"
                 alt="Google"
-                width={10}
+                width={15}
                 height={10}
                 className="object-contain"
               />
@@ -255,7 +255,7 @@ export default function OfertaPage() {
               <Image
                 src="/google1.jpg"
                 alt="Google"
-                width={10}
+                width={15}
                 height={10}
                 className="object-contain"
               />
@@ -291,7 +291,7 @@ export default function OfertaPage() {
             <Image
                 src="/google1.jpg"
                 alt="Google"
-                width={10}
+                width={15}
                 height={10}
                 className="object-contain"
               />
@@ -329,7 +329,7 @@ export default function OfertaPage() {
                 </h3>
       
                 <p className="mt-2 text-sm leading-relaxed text-neutral-700">
-                  Acesso imediato ao conteúdo educacional por <strong>R$ 29,90</strong>. No checkout, você escolhe
+                  Acesso imediato ao conteúdo educacional por <strong><br/>R$ 29,90</strong>. No checkout, você escolhe
                   se deseja adicionar orientação fisioterapêutica online (opcional).
                 </p>
       
