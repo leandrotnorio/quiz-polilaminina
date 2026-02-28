@@ -257,7 +257,7 @@ export default function OfertaPage() {
                 alt="Google"
                 width={50}
                 height={10}
-                className="object-contain"
+                className="object-contain bg-white"
               />
             
           
