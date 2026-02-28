@@ -253,11 +253,11 @@ export default function OfertaPage() {
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
             <p className="text-sm font-semibold text-neutral-900">Rafael S.</p>
               <Image
-                src="/google.png"
+                src="/google1.jpg"
                 alt="Google"
-                width={50}
+                width={20}
                 height={10}
-                className="object-contain bg-white"
+                className="object-contain"
               />
             
           
