@@ -53,12 +53,12 @@ export default function OfertaPage() {
             </div>
       
             <h2 className="mt-4 text-left text-[1.35rem] leading-[1.15] font-semibold text-neutral-900 sm:text-center sm:text-[1.75rem] md:text-3xl">
-              Tenha acesso ao guia agora + consulta profissional pelo fisioterapeuta
+              Tenha <span className="text-blue-900">acesso ao guia agora</span> e saia da zona de excesso de informação
             </h2>
       
             <p className="mt-4 text-left text-sm leading-relaxed text-neutral-700 sm:text-center sm:text-base">
               Você começa com o <strong>guia educacional completo</strong> para organizar o entendimento do tema
-              e<strong> obter consulta fisioterapêutica</strong>.
+              e<strong> consiga entender o conteúdo com mais clareza e profundidade</strong>.
             </p>
           </div>
 
@@ -91,16 +91,26 @@ export default function OfertaPage() {
       
                   <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
                     <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-3.5 sm:p-4">
-                      <p className="text-sm font-medium text-neutral-900">O que você leva</p>
+                      <p className="text-lg text-blue-900 font-bold">Ao adquirir este guia</p>
                       <p className="mt-1 text-sm leading-relaxed text-neutral-700">
-                        Guia digital com conteúdo estruturado, objetivo e orientado à interpretação responsável.
+                         Você tem acesso ao Guia digital com conteúdo estruturado, objetivo e orientado à interpretação responsável e com acesso vitalício.
                       </p>
                     </div>
       
                     <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-3.5 sm:p-4">
-                      <p className="text-sm font-medium text-neutral-900">Para quem faz sentido</p>
+                      <p className="text-lg font-bold text-blue-900">Porque adquirir este guia</p>
                       <p className="mt-1 text-sm leading-relaxed text-neutral-700">
-                        Pessoas e famílias que buscam clareza, contexto e informação organizada.
+                        Economia de tempo na busca por informação<br/> redução de confusão e acesso a uma visão mais clara e organizada do tema.
+                      </p>
+                    </div>
+
+                    <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-3.5 sm:p-4">
+                      <p className="text-lg font-bold text-blue-900">Para quem é este guia</p>
+                      <p className="mt-1 text-sm leading-relaxed text-neutral-700">
+                        Ideal para quem quer entender melhor a polilaminina de forma mais clara, busca um conteúdo educativo mais organizado,
+                         deseja estudar o tema sem depender apenas de redes sociais,
+                          valoriza uma leitura mais responsável e menos sensacionalista e prefere ter um material prático,
+                           acessível e fácil de consultar.
                       </p>
                     </div>
                   </div>
@@ -117,7 +127,7 @@ export default function OfertaPage() {
                         R$ 29,90
                       </p>
                       <p className="text-sm text-neutral-600 sm:pb-1">
-                        pagamento único • sem mensalidade
+                       • pagamento único <br/>• sem mensalidade <br/>• acesso vitalício
                       </p>
 
                       <button
@@ -198,13 +208,13 @@ export default function OfertaPage() {
         Avaliações de leitores
       </h3>
       <p className="mt-1 text-sm text-neutral-600">
-        Feedback sobre clareza, organização e linguagem responsável.
+        Feedbacks sobre clareza, organização e linguagem responsável.
       </p>
     </div>
 
     <div className="flex items-center justify-center gap-3">
       <div className="text-sm text-neutral-700">
-        • 1238 avaliações <span className="font-semibold text-neutral-900">4,8</span>
+        • 1238 avaliações no Google <span className="font-semibold text-neutral-900">(4,8)</span>
         
       </div>
     </div>
@@ -332,8 +342,9 @@ export default function OfertaPage() {
                 </h3>
       
                 <p className="mt-2 text-sm leading-relaxed text-neutral-700">
-                  Acesso imediato ao conteúdo educacional por <strong><br/>R$ 29,90</strong>. No checkout, você escolhe
-                  se deseja adicionar orientação fisioterapêutica online (opcional).
+                  Acesso imediato ao conteúdo educacional por apenas <strong>R$ 29,90</strong>.
+                  <br/>Adquira o ebook e tenha em mãos um conteúdo criado para quem busca clareza,
+                   organização e entendimento real sobre polilaminina..
                 </p>
       
                 {/* microcopy de confiança */}
@@ -375,7 +386,7 @@ export default function OfertaPage() {
                     </span>
       
                     <span className="mt-1 inline-flex items-center justify-center gap-2 text-base font-semibold sm:text-lg">
-                      Acessar por R$ 29,90
+                      Por R$ 29,90
                       <ArrowRight className="h-4 w-4 shrink-0 transition group-hover:translate-x-0.5" />
                     </span>
                   </button>
