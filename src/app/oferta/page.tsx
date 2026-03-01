@@ -31,7 +31,7 @@ export default function OfertaPage() {
     alt="Guia sobre Polilaminina e matriz extracelular"
     width={1200}
     height={1600}
-    className="object-cover object=center"
+    className="object-cover h-full w-full object-center"
     priority
       />
     </div>
