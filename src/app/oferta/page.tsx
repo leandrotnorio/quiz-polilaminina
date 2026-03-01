@@ -75,7 +75,7 @@ export default function OfertaPage() {
       
                 <div className="min-w-0 w-full">
                   <div className="flex flex-col items-start gap-2 sm:flex-row sm:flex-wrap sm:items-center">
-                    <h3 className="text-base font-semibold text-neutral-900 sm:text-lg leading-tight">
+                    <h3 className="mt-2 text-base font-semibold text-neutral-900 sm:text-lg leading-tight">
                       Guia Científico Completo <span className="hidden sm:inline">(Produto Principal)</span>
                     </h3>
       
@@ -122,7 +122,7 @@ export default function OfertaPage() {
                       em vez de pagar <span className="line-through">R$ 89,90</span>, você garante acesso hoje por:
                     </p>
       
-                    <div className="mt-3 flex flex-col items-start gap-1 sm:flex-row sm:flex-wrap sm:items-end sm:gap-3">
+                    <div className="mt-3 flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:items-end sm:gap-3">
                       <p className="text-3xl font-bold leading-none text-[#0B2D5C] sm:text-4xl">
                         R$ 29,90
                       </p>
@@ -337,7 +337,7 @@ export default function OfertaPage() {
           <div className="relative mt-6 rounded-2xl border border-neutral-200 bg-white p-4 sm:mt-8 sm:p-5 md:p-6">
             <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-6">
               <div className="min-w-0 text-left">
-                <h3 className="text-base font-bold text-blue-900 sm:text-lg">
+                <h3 className="text-lg font-bold text-blue-900 sm:text-lg">
                   Comece pelo guia e decida com mais clareza
                 </h3>
       
