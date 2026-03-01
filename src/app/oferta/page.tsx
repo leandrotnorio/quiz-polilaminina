@@ -52,11 +52,11 @@ export default function OfertaPage() {
               <span>Oferta de acesso • condição especial</span>
             </div>
       
-            <h2 className="mt-4 text-left text-[1.35rem] leading-[1.15] font-semibold text-neutral-900 sm:text-center sm:text-[1.75rem] md:text-3xl">
+            <h2 className="mt-4 text-center text-[1.35rem] leading-[1.15] font-semibold text-neutral-900 sm:text-center sm:text-[1.75rem] md:text-3xl">
               Tenha <span className="text-blue-900">acesso ao guia agora</span> e saia da zona de excesso de informação
             </h2>
       
-            <p className="mt-4 text-left text-sm leading-relaxed text-neutral-700 sm:text-center sm:text-base">
+            <p className="mt-4 text-center text-sm leading-relaxed text-neutral-700 sm:text-center sm:text-base">
               Você começa com o <strong>guia educacional completo</strong> para organizar o entendimento do tema
               e<strong> consiga entender o conteúdo com mais clareza e profundidade</strong>.
             </p>
