@@ -337,7 +337,7 @@ export default function OfertaPage() {
           <div className="relative mt-6 rounded-2xl border border-neutral-200 bg-white p-4 sm:mt-8 sm:p-5 md:p-6">
             <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-6">
               <div className="min-w-0 text-left">
-                <h3 className="text-base font-semibold text-neutral-900 sm:text-lg">
+                <h3 className="text-base font-bold text-blue-900 sm:text-lg">
                   Comece pelo guia e decida com mais clareza
                 </h3>
       
@@ -377,7 +377,7 @@ export default function OfertaPage() {
                     onClick={handleCheckout}
                     className="group w-full cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-4 text-white shadow-lg transition hover:bg-[#09264D] sm:px-6"
                   >
-                    <span className="block text-xs uppercase tracking-wide text-white/85">
+                    <span className="block text-xs uppercase tracking-wide text-white">
                       Condição especial de hoje
                     </span>
       
@@ -387,7 +387,6 @@ export default function OfertaPage() {
       
                     <span className="mt-1 inline-flex items-center justify-center gap-2 text-base font-semibold sm:text-lg">
                       Por R$ 29,90
-                      <ArrowRight className="h-4 w-4 shrink-0 transition group-hover:translate-x-0.5" />
                     </span>
                   </button>
                 </div>
