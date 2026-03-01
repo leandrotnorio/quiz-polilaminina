@@ -104,7 +104,7 @@ export default function OfertaPage() {
                       </p>
                     </div>
 
-                    <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-3.5 sm:p-4">
+                    <div className="rounded-xl lg:hidden border border-neutral-200 bg-neutral-50 p-3.5 sm:p-4">
                       <p className="text-lg font-bold text-blue-900">Para quem é este guia</p>
                       <p className="mt-1 text-sm leading-relaxed text-neutral-700">
                         Ideal para quem quer entender melhor a polilaminina de forma mais clara, busca um conteúdo educativo mais organizado,
