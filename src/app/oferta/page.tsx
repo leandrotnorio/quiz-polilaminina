@@ -343,7 +343,7 @@ export default function OfertaPage() {
       
                 <p className="mt-2 text-sm leading-relaxed text-neutral-700">
                   Acesso imediato ao conteúdo educacional por apenas <strong>R$ 29,90</strong>.
-                  <br/>Adquira o ebook e tenha em mãos um conteúdo criado para quem busca clareza,
+                  <br/>Adquira o guia e tenha em mãos um conteúdo criado para quem busca clareza,
                    organização e entendimento real sobre polilaminina..
                 </p>
       
