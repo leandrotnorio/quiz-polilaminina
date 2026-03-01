@@ -67,7 +67,7 @@ export default function OfertaPage() {
           {/* Estrutura da oferta (2 cards) */}
           <div className="relative mt-6 grid grid-cols-1 gap-4 md:mt-8 md:gap-5 lg:grid-cols-[1.1fr_0.9fr]">
             {/* Card principal do ebook */}
-            <div className="rounded-2xl border border-neutral-200 bg-white p-4 text-left sm:p-5 md:p-6">
+            <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4 text-left sm:p-5 md:p-6">
               <div className="flex items-start gap-3 sm:gap-4">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 text-[#0B2D5C] sm:h-11 sm:w-11">
                   <BookOpen className="h-5 w-5 shrink-0" />
