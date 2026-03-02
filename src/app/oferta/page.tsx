@@ -7,6 +7,8 @@ import { ArrowRight, BadgeCheck, BookOpen, Clock3, CreditCard, ShieldCheck, Spar
 
 const CHECKOUT_URL = "https://pay.kiwify.com.br/loqdJoT";
 
+
+
 export default function OfertaPage() {
   useEffect(() => {
     track("ViewContent", { content_name: "Oferta - Ebook Polilaminina" });
@@ -21,6 +23,13 @@ export default function OfertaPage() {
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
+      <script
+        src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+        data-utmify-prevent-xcod-sck
+        data-utmify-prevent-subids
+        async
+        defer
+      ></script>
 
       {/* HERO */}
       <section className="mt-0 sm:mt-20 md:mt-0 text-center">
