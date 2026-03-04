@@ -388,7 +388,7 @@ export default function OfertaPage() {
                     onClick={handleCheckout}
                     className="group w-full cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-4 text-white shadow-lg transition hover:bg-[#09264D] sm:px-6"
                   >
-                    <span className="block text-lg line-through opacity-70">
+                    <span className="block text-lg line-through text-white-100">
                       De R$ 147,00
                     </span>
       
