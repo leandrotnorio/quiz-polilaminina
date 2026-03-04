@@ -378,7 +378,7 @@ export default function OfertaPage() {
                 <p className="mt-2 text-lg leading-relaxed text-neutral-700">
                   Acesso imediato ao conteúdo educacional por apenas <strong>R$ 47,00</strong>.
                   <br/>Adquira o Mapa e tenha em mãos um conteúdo criado para quem busca clareza,
-                   organização e entendimento real sobre a reprodutibilidade.
+                   organização e entendimento real sobre como garantir a reprodutibilidade, qualidade e resultado na bancada e na análise.
                 </p>
       
                 {/* microcopy de confiança */}
