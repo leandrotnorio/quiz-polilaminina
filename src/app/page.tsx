@@ -381,7 +381,7 @@ export default function OfertaPage() {
                 </h3>
       
                 <p className="mt-2 text-lg leading-relaxed text-neutral-700">
-                  Acesso imediato ao conteúdo educacional por apenas <strong>R$ 37,00</strong>.
+                  Acesso imediato ao conteúdo educacional por apenas <strong>R$ 47,00</strong>.
                   <br/>Adquira o guia e tenha em mãos um conteúdo criado para quem busca clareza,
                    organização e entendimento real sobre a biotecnologia.
                 </p>

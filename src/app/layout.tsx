@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quiz Científico | Polilaminina",
+  title: "Mapa mental da biotecnologia",
   description:
     "Avaliação educacional sobre polilaminina e matriz extracelular.",
 };

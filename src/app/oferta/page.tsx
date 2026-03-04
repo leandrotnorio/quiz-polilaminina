@@ -23,13 +23,6 @@ export default function OfertaPage() {
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-      <script
-        src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-        data-utmify-prevent-xcod-sck
-        data-utmify-prevent-subids
-        async
-        defer
-      ></script>
 
       {/* HERO */}
       <section className="mt-0 sm:mt-20 md:mt-0 text-center">
@@ -381,7 +374,7 @@ export default function OfertaPage() {
                 </h3>
       
                 <p className="mt-2 text-lg leading-relaxed text-neutral-700">
-                  Acesso imediato ao conteúdo educacional por apenas <strong>R$ 37,00</strong>.
+                  Acesso imediato ao conteúdo educacional por apenas <strong>R$ 47,00</strong>.
                   <br/>Adquira o guia e tenha em mãos um conteúdo criado para quem busca clareza,
                    organização e entendimento real sobre a biotecnologia.
                 </p>
