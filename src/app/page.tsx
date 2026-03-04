@@ -380,41 +380,14 @@ export default function OfertaPage() {
                   <br/>Adquira o Mapa e tenha em mãos um conteúdo criado para quem busca clareza,
                    organização e entendimento real sobre como garantir a reprodutibilidade, qualidade e resultado na bancada e na análise.
                 </p>
+    
       
-                {/* microcopy de confiança */}
-                <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
-                  <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
-                    <Clock3 className="h-4 w-4 shrink-0 text-green-400" />
-                    <span className="text-green-400 text-lg">Acesso digital imediato</span>
-                  </div>
-      
-                  <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
-                    <CreditCard className="h-4 w-4 shrink-0 text-green-400" />
-                    <span className="text-green-400 text-lg">Pagamento único</span>
-                  </div>
-      
-                  <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
-                    <Lock className="h-4 w-4 shrink-0 text-green-400" />
-                    <span className="text-green-400 text-lg">Checkout seguro</span>
-                  </div>
-      
-                  <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
-                    <ShieldCheck className="h-4 w-4 shrink-0 text-green-400" />
-                    <span className="text-green-400 text-lg">Garantia de 7 dias</span>
-                  </div>
-                </div>
-              </div>
-      
-              <div className="w-full lg:w-auto">
+              <div className="mt-8 w-full lg:w-auto">
                 <div className="mx-auto w-full max-w-md lg:max-w-none">
                   <button
                     onClick={handleCheckout}
                     className="group w-full cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-4 text-white shadow-lg transition hover:bg-[#09264D] sm:px-6"
                   >
-                    <span className="block text-base uppercase tracking-wide text-white">
-                      Condição especial de hoje
-                    </span>
-      
                     <span className="block text-lg line-through opacity-70">
                       De R$ 147,00
                     </span>
@@ -423,6 +396,30 @@ export default function OfertaPage() {
                       Por R$ 47,00
                     </span>
                   </button>
+
+                  {/* microcopy de confiança */}
+                <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <div className="flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                    <Clock3 className="h-4 w-4 shrink-0 text-green-400" />
+                    <span className="text-green-400 text-lg">Acesso imediato</span>
+                  </div>
+      
+                  <div className="flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                    <CreditCard className="h-4 w-4 shrink-0 text-green-400" />
+                    <span className="text-green-400 text-lg">Pagamento único</span>
+                  </div>
+      
+                  <div className="flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                    <Lock className="h-4 w-4 shrink-0 text-green-400" />
+                    <span className="text-green-400 text-lg">Checkout seguro</span>
+                  </div>
+      
+                  <div className="flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                    <ShieldCheck className="h-4 w-4 shrink-0 text-green-400" />
+                    <span className="text-green-400 text-lg">Garantia de 7 dias</span>
+                  </div>
+                </div>
+              </div>
                 </div>
               </div>
             </div>
