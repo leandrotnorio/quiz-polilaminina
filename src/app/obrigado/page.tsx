@@ -34,7 +34,7 @@ export default function ObrigadoPage() {
 
       <div className="mt-10">
         <p className="text-sm text-neutral-500">
-          Material educacional com foco em biotecnologia. Não é um curso, mas sim um guia visual para facilitar o entendimento de conceitos complexos. O acesso é vitalício, ou seja, você pode consultar o material sempre que quiser. Em caso de dúvidas ou problemas, entre em contato conosco pelo e-mail tenorbiotech@gmail.com
+          Mapa educacional com foco em biotecnologia. Não é um curso, mas sim um guia visual para facilitar o entendimento de conceitos complexos. O acesso é vitalício, ou seja, você pode consultar o material sempre que quiser. Em caso de dúvidas ou problemas, entre em contato conosco pelo e-mail tenorbiotech@gmail.com
         </p>
       </div>
     </main>
