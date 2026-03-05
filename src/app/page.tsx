@@ -151,19 +151,13 @@ export default function OfertaPage() {
       
                   {/* ancoragem de valor */}
                   <div className="mt-5 rounded-2xl border border-neutral-400 bg-gradient-to-r from-[#0B2D5C]/5 to-blue-50 p-4">
-                    <p className="text-xl leading-relaxed text-neutral-700">
+                    <p className="text-xl text-center leading-relaxed text-neutral-700">
                       <span className="font-semibold text-neutral-900">Condição atual: </span>
                         em vez de pagar <span className="line-through">R$ 147,00</span>, você garante acesso hoje por:
                     </p>
-      
-                    <div className="mt-3 flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:items-end sm:gap-3">
-                      <p className="text-lg text-neutral-600 sm:pb-1">
-                       • pagamento único <br/>• sem mensalidade <br/>• acesso vitalício
-                      </p>
-
-                        <button
+                    <button
                           onClick={handleCheckout}
-                          className="group w-full sm:w-auto cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-3 text-white text-sm font-semibold shadow-md transition hover:bg-[#09264D]"> 
+                          className="group w-full mt-8 sm:w-auto cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-3 text-white text-sm font-semibold shadow-md transition hover:bg-[#09264D]"> 
                           <span className="block text-lg line-through text-white-100">
                             De R$ 147,00
                           </span>
@@ -171,6 +165,12 @@ export default function OfertaPage() {
                             Por R$ 47,00
                           </span>
                         </button>
+                    <div className="mt-3 flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:items-end sm:gap-3">
+                      <p className="text-lg text-neutral-600 sm:pb-1">
+                       • pagamento único <br/>• sem mensalidade <br/>• acesso vitalício
+                      </p>
+
+                       
                     </div>
                   </div>
                 </div>
