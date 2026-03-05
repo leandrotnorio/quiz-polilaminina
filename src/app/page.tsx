@@ -25,7 +25,7 @@ export default function OfertaPage() {
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
       {/* HERO */}
       <section className="mt-0 sm:mt-20 md:mt-0 text-center">
-        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl border border-neutral-200 bg-[#0B2D5C] p-4 shadow-sm sm:p-6 lg:p-10">
+        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-white p-4 shadow-sm sm:p-6 lg:p-10">
           {/* efeitos visuais sutis */}
             <div className="pointer-events-none absolute -top-10 right-0 h-28 w-28 rounded-full bg-blue-50/20 blur-3xl sm:h-40 sm:w-40" />
               <div className="pointer-events-none absolute -bottom-10 -left-6 h-24 w-24 rounded-full bg-indigo-100/40 blur-3xl sm:h-36 sm:w-36" />
@@ -36,19 +36,19 @@ export default function OfertaPage() {
 
                 <div className=" mt-12 flex items-center justify-center text-start gap-2 mb-6">
                         <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
-                        <p className="text-xl font-bold text-white">
+                        <p className="text-xl font-bold">
                         Mais clareza na complexidade da produção biotecnológica
                         </p>
                       </div>
                 <div className="flex  items-center justify-center text-start gap-2 mb-6">
                   <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
-                    <p className="text-xl text-white">
+                    <p className="text-xl font-bold">
                     Mais domínio sobre os desafios da resistência a antibióticos
                     </p>
                 </div>
                 <div className="flex items-center justify-center text-start gap-2 mb-6">
                   <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
-                    <p className="text-xl font-bold text-white">
+                    <p className="text-xl font-bold">
                     Mais visão estratégica sobre terapias gênicas e celulares
                     </p>
                 </div>
@@ -64,8 +64,8 @@ export default function OfertaPage() {
                 </div>
           {/* Header */}
           <div className="relative mx-auto max-w-3xl">
-            <h2 className="mt-6 text-center text-3xl leading-[1.15] font-semibold text-white sm:text-center sm:text-[1.75rem] md:text-3xl">
-              A biotecnologia está <span className="text-green-400">avançando rápido. </span> <br/>A pergunta é: você está <span className="text-yellow-400">avançando</span> ou <span className="text-red-500">ficando para trás?</span>
+            <h2 className="mt-6 text-center text-3xl leading-[1.15] font-semibold sm:text-center sm:text-[1.75rem] md:text-3xl">
+              A biotecnologia está <span className="bg-green-400 text-white">avançando rápido. </span> <br/>A pergunta é: você está <span className="bg-yellow-400 text-white">avançando</span> ou <span className="bg-red-500 text-white">ficando para trás?</span>
             </h2>
       
             {/*<p className="mt-4 text-left text-lg leading-relaxed text-white sm:text-center sm:text-base">
