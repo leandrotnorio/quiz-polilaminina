@@ -5,7 +5,7 @@ import { track } from "@/lib/pixel";
 import Image from "next/image";
 import { BadgeCheck, Microscope, BookOpen, Clock3, CreditCard, CircleCheck, ShieldCheck, Sparkles, Video, Lock, Star, FlaskConical } from "lucide-react";
 
-const CHECKOUT_URL = "https://pay.kiwify.com.br/loqdJoT";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/R9J0af0";
 
 
 
