@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mapa mental da biotecnologia",
+  title: "Mapa da Biotecnologia",
   description:
-    "Avaliação educacional sobre polilaminina e matriz extracelular.",
+    "Mapa educacional com foco em biotecnologia. Não é um curso, mas sim um guia visual para facilitar o entendimento de conceitos complexos. O acesso é vitalício, ou seja, você pode consultar o material sempre que quiser.",
 };
 
 const PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
