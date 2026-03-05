@@ -157,9 +157,6 @@ export default function OfertaPage() {
                     </p>
       
                     <div className="mt-3 flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:items-end sm:gap-3">
-                      <p className="text-3xl font-bold leading-none text-[#0B2D5C] sm:text-4xl">
-                        R$ 47,00
-                      </p>
                       <p className="text-lg text-neutral-600 sm:pb-1">
                        • pagamento único <br/>• sem mensalidade <br/>• acesso vitalício
                       </p>
