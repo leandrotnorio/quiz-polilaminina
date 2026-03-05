@@ -164,18 +164,16 @@ export default function OfertaPage() {
                        • pagamento único <br/>• sem mensalidade <br/>• acesso vitalício
                       </p>
 
-                      <button
-      onClick={handleCheckout}
-      className="group w-full sm:w-auto cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-3 text-white text-sm font-semibold shadow-md transition hover:bg-[#09264D]"
-    >
-      <span className="block text-lg line-through text-white-100">
-                      De R$ 147,00
-                    </span>
-      
-                    <span className="mt-1 inline-flex items-center justify-center gap-2 text-2xl font-semibold sm:text-lg">
-                      Por R$ 47,00
-                    </span>
-    </button>
+                        <button
+                          onClick={handleCheckout}
+                          className="group w-full sm:w-auto cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-3 text-white text-sm font-semibold shadow-md transition hover:bg-[#09264D]"> 
+                          <span className="block text-lg line-through text-white-100">
+                            De R$ 147,00
+                          </span>
+                          <span className="mt-1 inline-flex items-center justify-center gap-2 text-2xl font-semibold sm:text-lg">
+                            Por R$ 47,00
+                          </span>
+                        </button>
                     </div>
                   </div>
                 </div>
