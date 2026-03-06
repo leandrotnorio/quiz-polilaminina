@@ -64,8 +64,8 @@ export default function OfertaPage() {
                 </div>
           {/* Header */}
           <div className="relative mx-auto max-w-3xl">
-            <h2 className="mt-6 text-center text-3xl leading-[1.15] font-semibold sm:text-center sm:text-[1.75rem] md:text-3xl">
-              A biotecnologia está <span className="bg-green-400 text-white">avançando rápido. </span> <br/>A pergunta é: você está <span className="bg-yellow-400 text-white">avançando</span> ou <span className="bg-red-500 text-white">ficando para trás?</span>
+            <h2 className="mt-6 text-center text-3xl leading-10 font-semibold sm:text-center sm:text-[1.75rem] md:text-3xl">
+              A biotecnologia está <span className="bg-green-400 text-white">avançando rápido. </span><br/>A pergunta é: você está <span className="bg-yellow-400 text-white">avançando</span> ou <span className="bg-red-500 text-white">ficando para trás?</span>
             </h2>
       
             {/*<p className="mt-4 text-left text-lg leading-relaxed text-white sm:text-center sm:text-base">
