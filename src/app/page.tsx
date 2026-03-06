@@ -37,7 +37,7 @@ export default function OfertaPage() {
                 <div className=" mt-12 flex items-center justify-center text-start gap-2 mb-6">
                         <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
                         <p className="text-xl font-bold">
-                         Método para controlar variáveis críticas em experimentos
+                         O método para controlar variáveis críticas em experimentos
                         </p>
                       </div>
                 <div className="flex  items-center justify-center text-start gap-2 mb-6">
@@ -47,9 +47,9 @@ export default function OfertaPage() {
                     </p>
                 </div>
                 <div className="flex items-center justify-center text-start gap-2 mb-6">
-                  <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
+                  <CircleCheck className="h-9 w-9 text-green-400" strokeWidth={2.2} />
                     <p className="text-xl font-bold">
-                    Como reduzir drasticamente retrabalho e perda de tempo em bancada
+                    Como reduzir drasticamente retrabalho
                     </p>
                 </div>
                 <div className="relative w-full h-[340px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl">
