@@ -52,7 +52,7 @@ export default function OfertaPage() {
                     Como reduzir drasticamente retrabalho
                     </p>
                 </div>
-                <div className="relative w-full h-[340px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl">
+                <div className="relative mt-8 w-full h-[340px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl">
                   <Image
                     src="/ebook-biotech.png"
                     alt="Guia Biotecnologia"
